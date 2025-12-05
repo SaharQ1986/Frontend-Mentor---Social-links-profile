@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [URL solution](https://your-solution-url.com)
+- Solution URL: [URL solution](https://github.com/SaharQ1986/Frontend-Mentor---Social-links-profile.git)
 - Live Site URL: [live site URL](https://your-live-site-url.com)
 
 ## My process
@@ -87,7 +87,7 @@ The project is composed of:
 ## Author
 
 - Frontend Mentor – [@SaharQ1986](https://www.frontendmentor.io/profile/SaharQ1986)
-- GitHub – [@SaharQ1986](https://github.com/SaharQ1986/Frontend-Mentor---QR-code-component.git)
+- GitHub – [@SaharQ1986](https://github.com/SaharQ1986/Frontend-Mentor---Social-links-profile.git)
 
 ## Acknowledgments
 

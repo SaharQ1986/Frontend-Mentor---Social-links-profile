@@ -1,0 +1,115 @@
+:root {
+  --clr-green: hsl(75, 94%, 57%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-gray-700: hsl(0, 0%, 20%);
+  --clr-gray-800: hsl(0, 0%, 12%);
+  --clr-gray-900: hsl(0, 0%, 8%);
+
+  --body-font-size: 14px;
+  --font-weight-normal: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--clr-gray-900);
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100vh;
+  color: var(--clr-white);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 40px 16px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-gray-800);
+  max-width: 350px;
+  height: auto;
+  border-radius: 10px;
+}
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+}
+.profile-card img {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+.profile-contents {
+  text-align: center;
+  line-height: 32px;
+  margin-bottom: 16px;
+}
+.profile-contents h2 {
+  font-size: 24px;
+  font-weight: var(--font-weight-bold);
+}
+.profile-contents .location {
+  font-size: var(--body-font-size);
+  font-weight: var(--font-weight-semibold);
+  color: var(--clr-green);
+}
+.profile-contents .job {
+  font-size: var(--body-font-size);
+  font-weight: var(--font-weight-normal);
+  margin-top: 12px;
+}
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  width: 90%;
+}
+.social-links a {
+  font-size: var(--body-font-size);
+  font-weight: var(--font-weight-semibold);
+  text-decoration: none;
+  text-align: center;
+  color: var(--clr-white);
+  background-color: var(--clr-gray-700);
+  padding: 12px 32px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Media Query */
+@media (min-width: 1200px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .social-links a:hover {
+    cursor: pointer;
+    color: var(--clr-gray-800);
+    background-color: var(--clr-green);
+  }
+}

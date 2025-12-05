@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [URL solution](https://github.com/SaharQ1986/Frontend-Mentor---Social-links-profile.git)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Live Site URL: [live site URL](https://glittery-biscotti-c638d6.netlify.app/)
 
 ## My process
 
